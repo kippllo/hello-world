@@ -1,0 +1,46 @@
+
+
+h1 {
+	font-size: 32px;
+	font-family: Impact, fantasy;
+}
+
+
+p.cubeFirst {
+	font-size: 20px;
+	padding: 10px;
+}
+p.cubeFirst:first-line {
+	font-size: 30px;
+}
+
+span.standOut {
+	font-size: 20px;
+	font-weight: bold;
+	/* font-family: Impact, fantasy; */
+}
+
+
+
+/* For Desktop Mode: */
+@media (min-width: 1000px) {
+
+	h1 {
+		font-size: 32px;
+		font-family: Impact, fantasy;
+	}
+
+	p.cubeFirst {
+		float: left;
+		width: 400px;
+		margin: 10px 1%;
+		padding: 0;
+
+		font-size: 20px;
+	}
+
+	p.cubeFirst:first-line {
+		font-size: 24px;
+	}
+
+}
