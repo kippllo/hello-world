@@ -1,0 +1,124 @@
+
+
+* {
+	font-size: 14px; /* Mobile First web Design. */
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+	width: 100%;
+	margin: 0px auto;
+	background-color: #fff;
+	text-align: center;
+}
+
+
+h1 {
+	font-size: 24px;
+}
+
+
+
+nav {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0%;
+	background-color: #fff;
+}
+
+
+
+ul.nav {
+	width: 100%;
+	position: fixed;
+	top: 60px; /* Was "top: 0px;" this is a work around for the cover image.*/
+	left: 0%;
+
+	padding: 10px 0px;
+	margin: 0;
+
+	text-align: center;
+
+	background-color: #82a7c4;
+
+	z-index: 10;
+}
+
+ul.nav li {
+	display: inline; /* On top of making the link sit side-by-side, this also gets ride of the "list-style" dot. */
+
+	padding: 5px;
+}
+
+nav a {
+	font-family: Arial, sans-serif;
+}
+
+a.navLink {
+	color: black;
+	text-decoration: none;
+}
+
+a.current {
+	color: black;
+	text-decoration: none;
+	padding: 0px 5px 0px 5px;
+	border-bottom: 2px solid black;
+}
+
+a.navLink:hover, a.current:hover {
+	color: black;
+	border-bottom: 2px solid black; /* Makes a black line appear under the nav link when hovered over. */
+}
+
+article {
+	display: inline-block;
+	width: 90%;
+	border-radius: 10px;
+	border: 2.5px solid #617d93;
+	margin-top: 120px;
+	margin-bottom: 20px;
+	/* padding: 10px; Taking padding out allows the footer to stretch the whole bottom. Since there is no padding, margin needs to be use on all children. */
+}
+
+article img {
+	margin: 10px;
+}
+
+article p {
+	font-size: 18px;
+	text-align: justify;
+	margin: 10px;
+}
+
+footer {
+	width: 100%;
+	padding: 0;
+	background-color: #617d93;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+/* Work around class for the footer when using floats in acticle */
+footer.float {
+	clear: left;
+}
+
+
+
+/* For Desktop Mode: */
+@media (min-width: 1000px) {
+
+	* {
+		font-size: 18px;
+	}
+
+	h1 {
+		font-size: 32px;
+	}
+}
+
+
+
+
