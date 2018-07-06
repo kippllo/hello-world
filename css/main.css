@@ -97,9 +97,10 @@ article p {
 footer {
 	width: 100%;
 	padding: 0;
+	transform: scale(1.004, 1.04); /* I use the transform/scale as a work around for a weird visual glitch that made the footer's border have white lines between it and the article border. */
 	background-color: #617d93;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 /* Work around class for the footer when using floats in acticle */
