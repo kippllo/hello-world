@@ -7,7 +7,7 @@ h1.title {
 }
 
 h2 {
-	font-size: 16px;
+	font-size: 24px;
 }
 
 
@@ -23,7 +23,7 @@ article ul {
 }
 
 article li {
-	font-size: 18px;
+	font-size: 24px;
 	margin: 0 auto;
 }
 
@@ -51,6 +51,10 @@ span.standOut {
 	div.listHolder {
 		width: 40%;
 		margin: 0 auto;
+	}
+
+	article li {
+		font-size: 18px;
 	}
 
 	article p {
