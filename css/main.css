@@ -1,7 +1,7 @@
 
 
 * {
-	font-size: 14px; /* Mobile First web Design. */
+	font-size: 24px; /* Mobile First web Design. */
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -89,7 +89,7 @@ article img {
 }
 
 article p {
-	font-size: 18px;
+	font-size: 24px;
 	text-align: justify;
 	margin: 10px;
 }
@@ -123,6 +123,12 @@ footer.float {
 	nav a {
 		font-size: inherit;
 		font-family: Arial, sans-serif;
+	}
+
+	article p {
+		font-size: 18px;
+		text-align: justify;
+		margin: 10px;
 	}
 
 }
